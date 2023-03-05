@@ -1,0 +1,10 @@
+{
+	"TargetID":"vehicledef_EPONA_CLAN_RT",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 1000000,
+		}
+	]
+}

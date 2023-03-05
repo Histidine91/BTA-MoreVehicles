@@ -1,0 +1,88 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/o/artillery"
+			}
+		],
+		"BonusDescriptions": {
+			"Bonuses": [
+				"IsArtillery",
+				"VariableDmg: 45",
+				"WpnRecoil: 4",
+				"ScatterRadius: 35, 75",
+				"WpnCrits: +50%",
+				"AMSImmune"
+			]
+		},
+		"Flags": {
+			"flags": [
+				"no_salvage"
+			]
+		}
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC20",
+	"MinRange": 0,
+	"MaxRange": 800,
+	"RangeSplit": [
+		200,
+		400,
+		600
+	],
+	"AmmoCategory": "LongTom",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 65,
+	"Damage": 100,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 45,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1.5,
+	"RefireModifier": 4,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 4,
+	"Instability": 40,
+	"AMSImmune": true,
+	"MinMissRadius": 35,
+	"MaxMissRadius": 75,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
+	"Description": {
+		"Cost": 2100000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Armstrong Industries",
+		"Model": "Long Tom Artillery",
+		"UIName": "Long Tom Cannon",
+		"Id": "Weapon_MoreVees_Autocannon_LONGTOM_CANNON",
+		"Name": "Long Tom Cannon",
+		"Details": "The Long Tom Cannon is to the Long Tom Artillery Piece what a sawn-off shotgun is to a 12 gauge. This is a short-barreled direct-fire artillery piece meant for breaking fortifications. Unlike the Sniper and Thumper Cannons, the Long Tom Cannon preserves enough of the original's range to be useful for ranged fire support.\n<color=#87CEEB>[More Vehicles]</color> \n\n<b><color=#ffcc00>Uses LongTom Ammo.</color></b>",
+		"Icon": "Art-illery"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "artillery",
+	"BattleValue": 0,
+	"InventorySize": 12,
+	"Tonnage": 20,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"ImprovedBallistic": true,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"OmniRestriction.{location}",
+			"component_type_stock",
+			"mr-resize-8",
+			"range_extreme"
+		],
+		"tagSetSourceFile": ""
+	}
+}

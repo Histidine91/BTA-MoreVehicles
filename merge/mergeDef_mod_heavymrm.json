@@ -1,0 +1,15 @@
+{
+	"TargetID":"vehicledef_CARRIER_HEAVY_MRM",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Icon",
+			"Action": "Replace",
+			"Value": "HeavyLRMcarrier",
+		},
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 1400000,
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"Description": {
+		"Id": "lancedef_mech_dynamic_vtol",
+		"Name": "Dynamic VTOL",
+		"Details": "",
+		"Icon": "",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Difficulty": -1,
+	"LanceTags": {
+		"items": [
+			"lance_type_dynamic",
+			"lance_type_dynamic_difficulty",
+			"lance_type_cavalry",
+			"lance_type_vehicle"
+			"lance_type_notfull"
+		],
+		"tagSetSourceFile": "Tags/LanceTags"
+	},
+	"LanceUnits": [
+		{
+			"unitType": "Vehicle",
+			"unitId": "Tagged",
+			"pilotId": "Tagged",
+			"unitTagSet": {
+				"items": [
+					"unit_vtol",
+				],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"pilotTagSet": {
+				"items": [
+					"pilot_sensor"
+				],
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"excludedPilotTagSet": {
+				"items": null,
+				"tagSetSourceFile": "Tags/PilotTags"
+			}
+		}
+	]
+}

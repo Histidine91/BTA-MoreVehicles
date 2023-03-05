@@ -1,0 +1,19 @@
+{
+	"TargetID":"vehicledef_PATTON_UAC",
+	"Instructions": [
+		{
+			"JSONPath": "VehicleTags.items[?(@ == 'mr-resize-1.1')]",
+			"Action": "Remove",	
+		},
+		{
+			"JSONPath": "VehicleTags.items",
+			"Action": "ArrayAdd",
+			"Value": "mr-resize-1.40",
+		},
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 750000,
+		}
+	]
+}

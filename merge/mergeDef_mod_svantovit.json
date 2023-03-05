@@ -1,0 +1,10 @@
+{
+	"TargetID":"vehicledef_SVANTOVIT_IFV_CLAN",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 650000,
+		}
+	]
+}

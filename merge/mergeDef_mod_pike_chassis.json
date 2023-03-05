@@ -1,0 +1,15 @@
+{
+	"TargetID":"vehiclechassisdef_PIKE_CLAN",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Details",
+			"Action": "Replace",
+			"Value":"The Pike was created at the direction of Magestrix Kyalla Centrella during the later part of the Third Succession War, in an attempt to supply the Great Houses with a vehicle that would decimate each others' BattleMech armies. The Clan version aims to finish the job with the \"brrrt\" of five UAC/2s. Modestly armored, except frontally.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/150 Meters.</color></b>\n\n<b>Armor:</b> Standard\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       225     30\n<b>Left</b>         130     30\n<b>Right</b>       130     30\n<b>Rear</b>        130     35\n<b>Turret</b>      200     30\n\n<b>Total</b>       815    150\n",
+		},
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 1400000,
+		}
+	]
+}

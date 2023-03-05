@@ -1,0 +1,15 @@
+{
+	"TargetID":"vehiclechassisdef_STRIKER_3061",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Details",
+			"Action": "Replace",
+			"Value":"This low cost light fire support tank became a mainstay of the AFFS after its introduction in the first decade of the 31st century. The C3 Variant/3061 Upgrade is a Kuritan version of the of the \"3053\" Striker. The SRM launchers and their ammunition are dropped for a single turret-mounted ER Medium Laser, the LRM15's ammunition is brought up to 16 rounds, and the tank is also given a Guardian ECM Suite and a C3 Slave.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        130     20\n<b>Left</b>          115     20\n<b>Right</b>        115     20\n<b>Rear</b>         100     20\n<b>Turret</b>       120     20\n\n<b>Total</b>      580     120\n",
+		},
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 350000,
+		}
+	]
+}

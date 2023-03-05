@@ -1,0 +1,15 @@
+{
+	"TargetID":"vehiclechassisdef_SABAKU",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Details",
+			"Action": "Replace",
+			"Value": "The Sabaku Kaze or Desert Wind was based on the ancient Age of War Azami Sand Devil design, and became a premier reconnaissance vehicle of its time. The hovercraft was highly popular with Azami warriors and their Combine commanders. It was prized for the high speed attacks that it could make on its targets.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile, cannot move through woods.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/480 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        175     25\n<b>Left</b>          135     25\n<b>Right</b>        135     25\n<b>Rear</b>         100     25\n<b>Turret</b>       135     25\n\n<b>Total</b>      680    125\n",
+		},
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 300000,
+		}
+	]
+}

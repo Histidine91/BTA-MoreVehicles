@@ -1,0 +1,10 @@
+{
+	"TargetID":"vehicledef_MYRMIDON",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 500000,
+		}
+	]
+}

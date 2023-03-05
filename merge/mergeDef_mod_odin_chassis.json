@@ -1,0 +1,10 @@
+{
+	"TargetID":"vehiclechassisdef_ODIN_CLAN",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Details",
+			"Action": "Replace",
+			"Value":"One of the finest reconnaissance units in any Clan's touman. With just 1.5 tons of armor, the 20-ton Odin Scout Tank relies upon its 130 km/h top speed to stay out of enemy fire. Unlike most Clan warriors, the two-person crew of an Odin train together for their entire career, as the duo needs a close working relationship in order to properly man the small, sophisticated tank.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Movement: 8/12 Hex: 240/360 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous (C)\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>         30     10\n<b>Left</b>           30     10\n<b>Right</b>         30     10\n<b>Rear</b>          10     20\n<b>Turret</b>        30     10\n\n<b>Total</b>      140      50\n",
+		}
+	]
+}

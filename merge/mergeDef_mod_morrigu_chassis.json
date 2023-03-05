@@ -1,0 +1,15 @@
+{
+	"TargetID":"vehiclechassisdef_MORRIGU_CLAN",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Details",
+			"Action": "Replace",
+			"Value": "The Morrígú fire support vehicle was designed by Clan Blood Spirit to put as much fire into enemies as possible from as far away as possible. It eschews the traditionally meager amounts of armor on Clan combat vehicles, instead utilizing thirteen tons of Compound JX4, with an ECM suite for further protection. Since it is supposed to engage its enemies at range, the Morrígú is only capable of a 54 km/h speed.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/150 Meters.</color></b>\n\n<b>Armor:</b> Armor (C)\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       262     40\n<b>Left</b>         200     40\n<b>Right</b>       200     40\n<b>Rear</b>        165     40\n<b>Turret</b>      225     40\n\n<b>Total</b>      1052    200\n",
+		},
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 2000000,
+		}
+	]
+}

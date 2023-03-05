@@ -1,0 +1,210 @@
+{
+	"VehicleTags": {
+		"items": [
+			"unit_controllableTank",
+			"mr-resize-1.50",
+			"unit_vehicle",
+			"unit_medium",
+			"unit_tracks",
+			"unit_release",
+			"unit_rarity_1",
+			"unit_lance_assassin",
+			"unit_lance_tank",
+			"unit_generic",
+			"unit_bracket_med",
+			"unit_notsacellum",
+			"unit_legal"
+		],
+		"tagSetSourceFile": ""
+	},
+	"ChassisID": "vehiclechassisdef_MoreVees_WUGUAN",
+	"Description": {
+		"Cost": 1500000,
+		"Rarity": 0,
+		"Purchasable": false,
+		"UIName": "Wuguan Siege Gun",
+		"Id": "vehicledef_MoreVees_WUGUAN",
+		"Name": "Wuguan Siege Gun",
+		"Details": "The brainchild of a mad Capellan designer, the Wuguan is not so much a vehicle as a Long Tom Cannon with wheels and a fuel cell engine, wrapped in a modest five tons of heavy ferro-fibrous. It is intended to provide direct fire support with the devastating firepower of the Long Tom, but at lower cost and with higher mobility. Whether this makes tactical sense is in question, especially given that the plans (allegedly) specify its use as a Davy Crockett delivery system. Truly an insane weapon.\n<color=#87CEEB>[More Vehicles]</color>\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>\n\n<b>Armor:</b> Heavy Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       150     30\n<b>Left</b>         125     30\n<b>Right</b>       125     30\n<b>Rear</b>        95     30\n\n<b>Total</b>      495    120\n",
+		"Icon": "DIVHowI"
+	},
+	"Version": 1,
+	
+	"Locations": [
+		{
+			"Location": "Front",
+			"CurrentArmor": 150,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 150,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Left",
+			"CurrentArmor": 125,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 125,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Right",
+			"CurrentArmor": 125,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 125,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Rear",
+			"CurrentArmor": 95,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 95,
+			"DamageLevel": "Functional"
+		},
+	],
+	"inventory": [
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Weapon_MoreVees_Autocannon_LONGTOM_CANNON",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Left",
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Right",
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_half",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Longtom",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Longtom",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Ammo_AmmunitionBox_Shaped_Longtom",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Ammo_AmmunitionBox_Shaped_Longtom",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Ammo_MoreVees_AmmunitionBox_Nuke_Longtom",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{			
+			"MountedLocation": "Front",
+			"ComponentDefID": "Tank_CASE",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Tank_CrewCompartment",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Tank_Sensors_Generic",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Gear_C3",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Vehicle_Comm_Suite",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
+		},
+		{
+			"MountedLocation": "Left",
+			"ComponentDefID": "Gear_Tracked_Left",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Right",
+			"ComponentDefID": "Gear_Tracked_Right",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_armorslots_heavyferrosfibrous",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_engine_220",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_engineslots_FuelCell",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Tank_Coolant_System",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		}
+	]
+}

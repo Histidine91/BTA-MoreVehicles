@@ -1,0 +1,15 @@
+{
+	"TargetID":"vehiclechassisdef_MYRMIDON",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Details",
+			"Action": "Replace",
+			"Value": "The Myrmidon is produced by New Earth Trading Company as a cheap alternative to BattleMechs for Chaos March powers. Named after the famous Greek warriors commanded by Achilles, the Myrmidon is based upon the Manticore combat vehicle. It is, however, cheaper than that design and does not lose significant combat capabilities, so it looks attractive to military procurers who are focused on the bottom line.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       175     20\n<b>Left</b>         125     20\n<b>Right</b>       125     20\n<b>Rear</b>        120     20\n<b>Turret</b>      175     20\n\n<b>Total</b>      720    120\n",
+		},
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 500000,
+		}
+	]
+}

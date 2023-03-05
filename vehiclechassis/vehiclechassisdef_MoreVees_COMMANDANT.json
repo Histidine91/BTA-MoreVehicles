@@ -1,0 +1,131 @@
+{
+	"CustomParts": {
+		"CustomParts": []
+	},
+	"Description": {
+		"Cost": 300000,
+		"Rarity": 0,
+		"Purchasable": false,
+		"UIName": "Commandant (Standard)",
+		"Id": "vehiclechassisdef_MoreVees_COMMANDANT",
+		"Name": "Commandant",
+		"Details": "This medium tank seeks to fill an intermediate role between cheap ICE-powered vehicles like the Scorpion and high-end fusion platforms. With a c-bill cost per ton 2.5 times that of the ubiquitous Scorpion, critics have questioned whether the Commandant is the worst of both worlds, but its crews nevertheless appreciate its blend of firepower from its twin LAC/5s, speed, and armor.\n<color=#87CEEB>[More Vehicles]</color> \n\n <b><color=#ffcc00>Wheeled: Fast on open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Movement: 6/9 Hex: 180/270 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        150     25\n<b>Left</b>          115     25\n<b>Right</b>        115     25\n<b>Rear</b>         95     25\n<b>Turret</b>       150     25\n\n<b>Total</b>      625     125\n",
+		"Icon": "BollaTwinAC"
+	},
+	"MovementCapDefID": "movedef_6-9cv",
+	"PathingCapDefID": "pathingdef_medium_wheeled",
+	"HardpointDataDefID": "hardpointdatadef_bolladualac",
+	"PrefabIdentifier": "chrprfvhcl_bolladualac",
+	"PrefabBase": "bolauac",
+	"Tonnage": 50,
+	"weightClass": "MEDIUM",
+	"BattleValue": 564,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"movementType": "Wheeled",
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 3,
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 3.25,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 3
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 3.25,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 3
+		},
+		{
+			"x": -1.5,
+			"y": 4,
+			"z": 0
+		},
+		{
+			"x": 1.5,
+			"y": 4,
+			"z": 0
+		},
+		{
+			"x": 0,
+			"y": 2.5,
+			"z": -4
+		}
+	],
+	"Locations": [
+		{
+			"Location": "Front",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 150,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "Left",
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 115,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "Right",
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 115,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "Rear",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 95,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "Turret",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Ballistic",
+					"Omni": false
+				},
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 150,
+			"InternalStructure": 25
+		}
+	]
+}

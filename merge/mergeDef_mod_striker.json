@@ -1,0 +1,10 @@
+{
+	"TargetID":"vehicledef_STRIKER_3061",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 350000,
+		}
+	]
+}

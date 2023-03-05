@@ -1,0 +1,146 @@
+{
+	"Custom": {
+		"VAssemblyVariant": {
+			"PrefabID": "Desaix",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"CustomParts": {
+		"CustomParts": []
+	},
+	"Description": {
+		"Id": "vehiclechassisdef_MoreVees_DESAIX_B_CMD",
+		"Name": "Desaix B CMD",
+		"UIName": "Desaix B (Command)",
+		"Icon": "FTANK",
+		"Cost": 850000,
+		"Rarity": 0,
+		"Purchasable": false,
+		"Details": "Another attempt to keep tanks relevant against BattleMechs, the Desaix is a fast, well-armed and armored OmniVehicle named for a noble general of the French Revolutionary Wars on old Terra. The Command subvariant of the Desaix B mounts a UAC/5, two ER Medium Lasers and the key C3 Master system, along with a comms suite and B-Pod pack.\n<color=#87CEEB>[More Vehicles]</color>\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>\n\n <b>Armor:</b> Heavy Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       260     35\n<b>Left</b>         205     35\n<b>Right</b>       205     35\n<b>Rear</b>        170     35\n<b>Turret</b>      250     35\n\n<b>Total</b>      1090    165\n",
+	},
+	"YangsThoughts": "It's a tank, Boss, they all look the same to me.",
+	"MovementCapDefID": "movedef_5-8cv",
+	"PathingCapDefID": "pathingdef_heavy_tracked",
+	"HardpointDataDefID": "hardpointdatadef_ftank",
+	"PrefabIdentifier": "chrprfvhcl_ftank",
+	"PrefabBase": "ftank",
+	"Tonnage": 65,
+	"weightClass": "HEAVY",
+	"BattleValue": 993,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"movementType": "Tracked",
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"z": 3
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"z": 3
+		},
+		{
+			"x": -3,
+			"y": 1.5,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 1.5,
+			"z": 0
+		},
+		{
+			"x": 0,
+			"y": 3,
+			"z": -4
+		}
+	],
+	"Locations": [
+		{
+			"Location": "Front",
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 260,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "Left",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 205,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "Right",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 205,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "Rear",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 170,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "Turret",
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 250,
+			"InternalStructure": 35
+		}
+	]
+}

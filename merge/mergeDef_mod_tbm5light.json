@@ -1,0 +1,24 @@
+{
+	"TargetID":"vehicledef_CARRIER_LIGHT_TBM5",
+	"Instructions": [
+		{
+			"JSONPath": "VehicleTags.items[?(@ == 'mr-resize-1.50')]",
+			"Action": "Remove",	
+		},
+		{
+			"JSONPath": "VehicleTags.items",
+			"Action": "ArrayAdd",
+			"Value": "mr-resize-1.10",
+		},
+		{
+			"JSONPath": "Description.Icon",
+			"Action": "Replace",
+			"Value": "LightSRMcarrier",
+		},
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 650000,
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"TargetID":"vehiclechassisdef_EPONA_CLAN_RT",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Details",
+			"Action": "Replace",
+			"Value": "Unlike most Clan combat vehicles, the Epona Pursuit Tank is only produced by Clan Hell's Horses, where it is considered a front-line unit and sees service in the most prestigious Galaxies. The Epona is a fast vehicle that can chase down opponents and serve as a scout. In order to increase its survivability, the Epona is built on the largest hovercraft frame possible. It is still speedy, but this comes at the price of armor.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile, cannot move through woods.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous (C)\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        105     25\n<b>Left</b>          100     25\n<b>Right</b>        100     25\n<b>Rear</b>          90     25\n<b>Turret</b>        85     25\n\n<b>Total</b>      480    125\n",
+		},
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 1000000,
+		}
+	]
+}

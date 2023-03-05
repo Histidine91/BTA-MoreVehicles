@@ -1,0 +1,26 @@
+{
+    "Name": "More Vehicles",
+    "Enabled": true,
+	"Hidden": false,
+	"Version": "1.0.0",
+	"Description": "Makes more vehicles playable and adds some new non-canon ones.",
+	"Author": "Histidine",
+    "Contact": "",
+	"Manifest": [
+		{ "Type": "AdvancedJSONMerge", "Path": "merge" },
+		{ "Type": "VehicleDef", "Path": "vehicle" },
+		{ "Type": "VehicleChassisDef", "Path": "vehiclechassis"	},
+		{ "Type": "WeaponDef", "Path": "weapon" },
+		{ "Type": "AmmunitionDef", "Path": "ammunition" },
+		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionbox" },
+		{ "Type": "Sprite",	"Path": "portrait" },
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "shops",
+			"ShouldAppendText": true
+		},
+	],
+    "OptionallyDependsOn": ["BT Advanced UW Unit Module"],
+	"DependsOn": [ "VIPadvanced", "BT Advanced Clan Tanks", "DynamicShops" ],
+	"ConflictsWith": [],
+}

@@ -1,0 +1,25 @@
+{
+	"TargetID":"vehiclechassisdef_ARES_CLAN",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Details",
+			"Action": "Replace",
+			"Value": "The Ares Medium Tank is designed to stand off and take down its enemies at long range. Its top speed of 86 km/h is fast for a fire support combat vehicle, so it is often paired with APCs to support infantry. Its somewhat meager armor encourages Ares crews to stay out of range of most return fire. This tank is most popular with Clan Coyote and Clan Wolf, though it is present in some numbers in most Clans.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 120/180 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous (C)\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        95     20\n<b>Left</b>         85     20\n<b>Right</b>        85     20\n<b>Rear</b>         80     20\n<b>Turret</b>       85     20\n\n<b>Total</b>       430    100\n",
+		},
+		{
+			"JSONPath": "Description.Name",
+			"Action": "Replace",
+			"Value": "Ares",
+		},
+		{
+			"JSONPath": "Description.UIName",
+			"Action": "Replace",
+			"Value": "Ares",
+		},
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 800000,
+		}
+	]
+}

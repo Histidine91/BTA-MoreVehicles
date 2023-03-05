@@ -1,0 +1,10 @@
+{
+	"TargetID":"vehicledef_PIKE_CLAN",
+	"Instructions": [
+		{
+			"JSONPath": "Description.Cost",
+			"Action": "Replace",
+			"Value": 1400000,
+		}
+	]
+}
