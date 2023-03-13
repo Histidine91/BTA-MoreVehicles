@@ -8,9 +8,6 @@ It makes some otherwise unplayable vehicles in BTA now playable (including selec
 ## Setup instructions ##
 Simply download or check out this Git repository to `BATTLETECH/Mods`, then run the game.
 
-Note: Some vehicles require certain DLC and/or the BTA Community Content pack. If you lack either, go into `More Vehicles/vehicle` and delete the vehicle def file for that vehicle. It may be necessary to do the same with the chassis def in `More Vehicles/vehiclechassis`
-
-
 ## License ##
 Anything copyrightable by me specifically is released as public domain/CC-0, do whatever with it. 
 
@@ -36,8 +33,6 @@ Clan vehicles:
 - Epona Prime (medium)
 - Pike (heavy)
 - Morrigu Fire Support Vehicle (assault)
-
-Note: No attempt has been made to ensure these vehicles are actually used by any faction.
 
 If you want to unlock more vehicles, add the relevant vehicle def IDs to the `TargetIDs` list in `More Vehicles/merge/mergeDef_unlockTanks.json`.
 
@@ -67,4 +62,4 @@ If you want to unlock more vehicles, add the relevant vehicle def IDs to the `Ta
 
 **ComStar planets** sell the Merkava EX with high rep.
 
-The Shamash, Svantovit and Ares are sold on **Clan Diamond Shark** planets, as well as **Clan Nova Cat** planets with some rep. At Honored relations, the Nova cats will throw in the Epona Prime as well. The Pike and Morrigu can only be obtained from salvage.
+The Shamash, Svantovit and Ares are sold on **Clan Diamond Shark** planets, as well as **Clan Nova Cat** planets with some rep. At Honored relations, the Nova Cats will throw in the Epona Prime as well. The Pike and Morrigu can only be obtained from salvage.
