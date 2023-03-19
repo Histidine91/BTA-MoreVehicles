@@ -1,0 +1,10 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options.[?(@.ID== 'diff_Clan')].DifficultyConstants[?(@.ConstantName== 'StartingRandomMechLists')].ConstantValue",
+			"Action": "Replace",
+			"Value": "itemCollection_Mechs_Starting_Generic_Light,itemCollection_Mechs_Starting_Generic_Light,itemCollection_Mechs_Generic_Bug,itemCollection_Mechs_Starting_Clan_One,itemCollection_Mechs_Starting_Clan_Two,itemCollection_MoreVees_Starting_Vehicles_Clan"
+		}
+	]
+}
