@@ -139,13 +139,6 @@
 	],
 	"inventory": [
 		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"DamageLevel": "Functional"
-		},
-		{
 			"MountedLocation": "Turret",
 			"ComponentDefID": "Weapon_PPC_Heavy_0-STOCK",
 			"ComponentDefType": "Weapon",
@@ -165,6 +158,13 @@
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
+		},		
+		{
+			"MountedLocation": "Turret",
+			"ComponentDefID": "Weapon_RocketLauncher_RL10_0_STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 3,
+			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Turret",
@@ -174,10 +174,10 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"MountedLocation": "Turret",
-			"ComponentDefID": "Weapon_RocketLauncher_RL10_0_STOCK",
+			"MountedLocation": "Front",
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
 			"ComponentDefType": "Weapon",
-			"HardpointSlot": 3,
+			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
 		},
 		{

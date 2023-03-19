@@ -145,24 +145,17 @@
 			"DamageLevel": "Functional"
 		}
 	],
-	"inventory": [
-		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "Turret",
-			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"DamageLevel": "Functional"
-		},
+	"inventory": [		
 		{
 			"MountedLocation": "Turret",
 			"ComponentDefID": "Weapon_Autocannon_UAC5_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Turret",
+			"ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
@@ -176,16 +169,23 @@
 		},
 		{
 			"MountedLocation": "Turret",
-			"ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+			"ComponentDefID": "Weapon_C3_Master",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 3,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Turret",
-			"ComponentDefID": "Weapon_C3_Master",
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 4,
+			"DamageLevel": "Functional"
+		},		
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
 		},
 		{

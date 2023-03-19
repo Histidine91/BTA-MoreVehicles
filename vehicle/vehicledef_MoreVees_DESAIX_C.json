@@ -153,22 +153,15 @@
 	],
 	"inventory": [
 		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "Turret",
-			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"DamageLevel": "Functional"
-		},
-		{
 			"MountedLocation": "Turret",
 			"ComponentDefID": "Weapon_PPC_PPC_SNUBNOSE",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Turret",
+			"ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
@@ -182,7 +175,7 @@
 		},
 		{
 			"MountedLocation": "Turret",
-			"ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_SmallLaserER_1-Diverse_Optics",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 3,
 			"DamageLevel": "Functional"
@@ -193,12 +186,19 @@
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 4,
 			"DamageLevel": "Functional"
-		},
+		},		
 		{
 			"MountedLocation": "Turret",
-			"ComponentDefID": "Weapon_Laser_SmallLaserER_1-Diverse_Optics",
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 5,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
 		},
 		{
