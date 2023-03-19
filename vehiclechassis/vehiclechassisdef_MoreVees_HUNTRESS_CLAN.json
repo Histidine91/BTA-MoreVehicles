@@ -1,0 +1,128 @@
+{
+	"CustomParts": {
+		"CustomParts": []
+	},
+	"Description": {
+		"Id": "vehiclechassisdef_MoreVees_HUNTRESS_CLAN",
+		"Name": "Huntress",
+		"Details": "A Diamond Shark product for the export market, the Huntress was built to hunt and kill enemy 'Mechs and armor at any range using a battery of ATM 6 launchers. Like most Clan vehicles (and befitting its role), it favours speed over armor.\n<color=#87CEEB>[More Vehicles]</color>\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/280 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous (C)\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>         95     25\n<b>Left</b>           85     25\n<b>Right</b>        85     25\n<b>Rear</b>         75     25\n<b>Turret</b>       90     25\n\n<b>Total</b>       430    125\n",
+		"Icon": "GIWolverine",
+		"Cost": 650000,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"MovementCapDefID": "movedef_5-8cv",
+	"PathingCapDefID": "pathingdef_medium_tracked",
+	"HardpointDataDefID": "hardpointdatadef_giwolverine",
+	"PrefabIdentifier": "chrprfvhcl_giwolverine",
+	"PrefabBase": "giwolverine",
+	"Tonnage": 45,
+	"weightClass": "MEDIUM",
+	"BattleValue": 564,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"movementType": "Tracked",
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 3,
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 3
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 3
+		},
+		{
+			"x": -1.5,
+			"y": 4,
+			"z": 0
+		},
+		{
+			"x": 1.5,
+			"y": 4,
+			"z": 0
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": -3.5
+		}
+	],
+	"Locations": [
+		{
+			"Location": "Front",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 95,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "Left",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 85,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "Right",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 85,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "Rear",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 75,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "Turret",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 90,
+			"InternalStructure": 25
+		}
+	]
+}

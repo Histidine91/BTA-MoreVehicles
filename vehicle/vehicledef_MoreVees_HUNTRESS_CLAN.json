@@ -1,0 +1,212 @@
+{
+	"Version": 1,
+	"Description": {
+		"Id": "vehicledef_MoreVees_HUNTRESS_CLAN",
+		"Name": "Huntress",
+		"Details": "A Diamond Shark product for the export market, the Huntress was built to hunt and kill enemy 'Mechs and armor at any range using a battery of ATM 6 launchers. Like most Clan vehicles (and befitting its role), it favours speed over armor.\n<color=#87CEEB>[More Vehicles]</color>\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/280 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous (C)\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>         95     25\n<b>Left</b>           85     25\n<b>Right</b>        85     25\n<b>Rear</b>         75     25\n<b>Turret</b>       90     25\n\n<b>Total</b>       430    125\n",
+		"Icon": "GIWolverine",
+		"Cost": 650000,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"ChassisID": "vehiclechassisdef_MoreVees_HUNTRESS_CLAN",
+	"VehicleTags": {
+		"items": [
+			"mr-resize-1.50",
+			"unit_controllableTank",
+			"unit_vehicle",
+			"unit_medium",
+			"unit_tracks",
+			"unit_release",
+			"unit_rarity_3",
+			"unit_carrier",
+			"unit_lance_support",
+			"unit_advanced",
+			"unit_bracket_med",
+			"CGBThetaGalaxy",
+			"CJFIotaGalaxy",
+			"CNCOmicronGalaxy",
+			"CWEpsilonGalaxy",
+			"clansgeneric",
+			"ClanWolf",
+			"ClanJadeFalcon",
+			"ClanGhostBear",
+			"ClanNovaCat",
+			"ClanDiamondShark",
+			"unit_legal"
+		],
+		"tagSetSourceFile": ""
+	},
+	"Locations": [
+		{
+			"Location": "Front",
+			"CurrentArmor": 95,
+			"CurrentInternalStructure": 25,
+			"AssignedArmor": 95,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Left",
+			"CurrentArmor": 85,
+			"CurrentInternalStructure": 25,
+			"AssignedArmor": 85,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Right",
+			"CurrentArmor": 85,
+			"CurrentInternalStructure": 25,
+			"AssignedArmor": 85,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Rear",
+			"CurrentArmor": 75,
+			"CurrentInternalStructure": 25,
+			"AssignedArmor": 75,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Turret",
+			"CurrentArmor": 90,
+			"CurrentInternalStructure": 25,
+			"AssignedArmor": 90,
+			"DamageLevel": "Functional"
+		}
+	],
+	"inventory": [
+		{
+			"ComponentDefID": "Weapon_LRM_ATM6_CLAN",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_LRM_ATM6_CLAN",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_LRM_ATM6_CLAN",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 2,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_LRM_ATM6_CLAN",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 3,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_ATM",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_ATM",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_ER_ATM",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_ER_ATM",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_HE_ATM",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_HE_ATM",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Tank_Coolant_System",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_engineslots_FuelCell",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Tank_CASE_CLAN",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Tank_Turret",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Turret",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Tank_CrewCompartment",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Front",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_TTS_AdvancedTC",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Tank_Sensors_Generic",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Tracked_Right",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Right",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Tracked_Left",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		}
+	]
+}
