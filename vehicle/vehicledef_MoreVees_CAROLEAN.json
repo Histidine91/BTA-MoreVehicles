@@ -135,15 +135,15 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"ChassisID": "vehiclechassisdef_MoreVees_COMMANDANT",
+	"ChassisID": "vehiclechassisdef_MoreVees_CAROLEAN",
 	"Description": {
 		"Cost": 300000,
 		"Rarity": 0,
 		"Purchasable": false,
-		"UIName": "Commandant (Standard)",
-		"Id": "vehicledef_MoreVees_COMMANDANT",
-		"Name": "Commandant",
-		"Details": "This medium tank seeks to fill an intermediate role between cheap ICE-powered vehicles like the Scorpion and high-end fusion platforms. With a c-bill cost per ton 2.5 times that of the ubiquitous Scorpion, critics have questioned whether the Commandant is the worst of both worlds, but its crews nevertheless appreciate its blend of firepower from its twin LAC/5s, speed, and armor.\n<color=#87CEEB>[More Vehicles]</color>\n\n <b><color=#ffcc00>Wheeled: Fast on open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Movement: 6/9 Hex: 180/270 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        150     25\n<b>Left</b>          115     25\n<b>Right</b>        115     25\n<b>Rear</b>         95     25\n<b>Turret</b>       150     25\n\n<b>Total</b>      625     125\n",
+		"UIName": "Carolean (Standard)",
+		"Id": "vehicledef_MoreVees_CAROLEAN",
+		"Name": "Carolean",
+		"Details": "This medium tank seeks to fill an intermediate role between cheap ICE-powered vehicles like the Scorpion and high-end fusion platforms. With a c-bill cost per ton 2.5 times that of the ubiquitous Scorpion, critics have questioned whether the Carolean is the worst of both worlds, but its crews nevertheless appreciate its blend of firepower from its twin LAC/5s, speed, and armor.\n<color=#87CEEB>[More Vehicles]</color>\n\n <b><color=#ffcc00>Wheeled: Fast on open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Movement: 6/9 Hex: 180/270 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        150     25\n<b>Left</b>          115     25\n<b>Right</b>        115     25\n<b>Rear</b>         95     25\n<b>Turret</b>       150     25\n\n<b>Total</b>      625     125\n",
 		"Icon": "BollaTwinAC"
 	},
 	"Version": 1,
