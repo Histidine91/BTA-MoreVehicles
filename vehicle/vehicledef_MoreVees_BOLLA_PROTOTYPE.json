@@ -30,7 +30,7 @@
 		"UIName": "Bolla Prototype",
 		"Id": "vehicledef_MoreVees_BOLLA_PROTOTYPE",
 		"Name": "Bolla Prototype",
-		"Details": "The Word of Blake's Bolla Stealth Tank was designed during the early part of the Jihad as part of the Serpentus Series of OmniVehicles, and was first seen in combat in 3072. This prototype model from 3069 is armed with an eclectic mix of SRMs and a LAC/5s to support the six tons of battle armor it carries. The CASE did not make it into the production version.\n<color=#87CEEB>[More Vehicles]</color>\n\n <b><color=#ffcc00>Wheeled: Fast on open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>\n\n<b>Armor:</b> Vehicular Stealth\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        170     30\n<b>Left</b>          160     30\n<b>Right</b>        160     30\n<b>Rear</b>        150     30\n<b>Turret</b>       200     30\n\n<b>Total</b>      840     150\n",
+		"Details": "The Word of Blake's Bolla Stealth Tank was designed during the early part of the Jihad as part of the Serpentus Series of OmniVehicles, and was first seen in combat in 3072. This prototype model from 3069 is armed with an eclectic mix of SRMs and a LAC/5s to support the six tons of battle armor it carries. The CASE did not make it into the production version.\n<color=#87CEEB>[More Vehicles]</color>\n\n <b><color=#ffcc00>CARRIES A SQUAD OF TENGU BATTLE ARMOR!</color></b>\n\n <b><color=#ffcc00>Wheeled: Fast on open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>\n\n<b>Armor:</b> Vehicular Stealth\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        170     30\n<b>Left</b>          160     30\n<b>Right</b>        160     30\n<b>Rear</b>        150     30\n<b>Turret</b>       200     30\n\n<b>Total</b>      840     150\n",
 		"Icon": "BollaTwinSRM"
 	},
 	"Version": 1,
@@ -226,7 +226,7 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Tank_InfantryCompartment",
+			"ComponentDefID": "Gear_Airdrop_Beacon_BA_Tengu",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"

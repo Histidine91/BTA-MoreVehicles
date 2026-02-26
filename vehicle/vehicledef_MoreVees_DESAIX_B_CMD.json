@@ -217,7 +217,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Gear_B_Pod",
+			"ComponentDefID": "Gear_BAP",
 			"ComponentDefType": "Upgrade",
 			"MountedLocation": "Rear",
 			"HardpointSlot": -1,

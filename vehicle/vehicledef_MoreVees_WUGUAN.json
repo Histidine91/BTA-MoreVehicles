@@ -63,7 +63,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Weapon_MoreVees_Autocannon_LONGTOM_CANNON",
+			"ComponentDefID": "Weapon_Autocannon_LONGTOM_CANNON",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
@@ -194,7 +194,7 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "emod_engineslots_FuelCell",
+			"ComponentDefID": "emod_engineslots_fuelcell_center",
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"

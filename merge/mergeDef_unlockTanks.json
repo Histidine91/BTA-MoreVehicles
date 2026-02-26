@@ -22,7 +22,7 @@
 			"Action": "Remove",
 		},
 		{
-			"JSONPath": "VehicleTags.items[?(@ == 'no_parts')]",
+			"JSONPath": "VehicleTags.items[?(@ == 'NOSALVAGE')]",
 			"Action": "Remove",
 		},
 		{

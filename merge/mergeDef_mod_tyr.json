@@ -6,7 +6,7 @@
 			"Action": "ArrayConcat",
 			"Value":[
 				{
-					"ComponentDefID": "Tank_InfantryCompartment",
+					"ComponentDefID": "Gear_Airdrop_Beacon_BA_Elemental",
 					"ComponentDefType": "Upgrade",
 					"MountedLocation": "Rear",
 					"HardpointSlot": 1,
