@@ -17,7 +17,7 @@
 	"HardpointDataDefID": "hardpointdatadef_bolladualac",
 	"PrefabIdentifier": "chrprfvhcl_bolladualac",
 	"PrefabBase": "bolauac",
-	"Tonnage": 50,
+	"Tonnage": 45,
 	"weightClass": "MEDIUM",
 	"BattleValue": 564,
 	"TopSpeed": 85,
