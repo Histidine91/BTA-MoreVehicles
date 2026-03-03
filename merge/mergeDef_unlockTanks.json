@@ -1,6 +1,5 @@
 {
 	"TargetIDs": [
-		"vehicledef_STRIKER_3061",
 		"vehicledef_CARRIER_LIGHT_TBM5",
 		"vehicledef_MYRMIDON",
 		"vehicledef_SABAKU",
@@ -9,8 +8,7 @@
 		"vehicledef_BRUTUS_LRM",
 		"vehicledef_CARRIER_HEAVY_MRM",
 		
-		"vehicledef_SHAMASH_CLAN",
-		"vehicledef_SVANTOVIT_IFV_CLAN",		
+		"vehicledef_SHAMASH_CLAN",	
 		"vehicledef_ARES_CLAN",
 		"vehicledef_EPONA_CLAN_RT",
 		"vehicledef_PIKE_CLAN",
