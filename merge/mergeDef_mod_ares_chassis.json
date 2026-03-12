@@ -12,11 +12,6 @@
 			"Value": "Ares",
 		},
 		{
-			"JSONPath": "Description.UIName",
-			"Action": "Replace",
-			"Value": "Ares",
-		},
-		{
 			"JSONPath": "Description.Cost",
 			"Action": "Replace",
 			"Value": 800000,

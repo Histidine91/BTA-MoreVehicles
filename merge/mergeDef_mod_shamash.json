@@ -7,11 +7,6 @@
 			"Value": "Shamash Recon Vehicle",
 		},
 		{
-			"JSONPath": "Description.UIName",
-			"Action": "Replace",
-			"Value": "Shamash Recon Vehicle",
-		},
-		{
 			"JSONPath": "Description.Cost",
 			"Action": "Replace",
 			"Value": 500000,

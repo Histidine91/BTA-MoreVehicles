@@ -12,11 +12,6 @@
 			"Value": "Shamash",
 		},
 		{
-			"JSONPath": "Description.UIName",
-			"Action": "Replace",
-			"Value": "Shamash",
-		},
-		{
 			"JSONPath": "Description.Cost",
 			"Action": "Replace",
 			"Value": 500000,
