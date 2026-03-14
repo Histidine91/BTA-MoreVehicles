@@ -1,7 +1,7 @@
 {
 	"Description": {
-		"Id": "Ammunition_MoreVees_LongTom_Nuke",
-		"Name": "Long Tom Davy Crockett Ammo",
+		"Id": "Ammunition_MoreVees_LongTom_Cannon_Nuke",
+		"Name": "Long Tom Cannon Davy Crockett Ammo",
 		"UIName": "Nuke",
 		"Details": "I am become death, the destroyer of worlds.",
 		"Icon": null,
@@ -10,7 +10,7 @@
 		"Purchasable": false
 	},
 	"Type": "Normal",
-	"Category": "LongTom",
+	"Category": "LongTomCannon",
 	"HeatGenerated": 0,
 	"HeatGeneratedModifier": 1,
 	"ArmorDamageModifier": 1,

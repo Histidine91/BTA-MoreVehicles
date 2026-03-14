@@ -91,35 +91,35 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Longtom",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Longtom_Cannon",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Longtom",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Longtom_Cannon",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Ammo_AmmunitionBox_Shaped_Longtom",
+			"ComponentDefID": "Ammo_AmmunitionBox_Shaped_Longtom_Cannon",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Ammo_AmmunitionBox_Shaped_Longtom",
+			"ComponentDefID": "Ammo_AmmunitionBox_Shaped_Longtom_Cannon",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Ammo_MoreVees_AmmunitionBox_Nuke_Longtom",
+			"ComponentDefID": "Ammo_MoreVees_AmmunitionBox_Nuke_Longtom_Cannon",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"

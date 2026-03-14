@@ -81,7 +81,7 @@
 			"Location": "Front",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Ballistic",
+					"WeaponMountID": "Artillery",
 					"Omni": false
 				}
 			],
@@ -94,7 +94,7 @@
 			"Location": "Left",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -107,7 +107,7 @@
 			"Location": "Right",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
