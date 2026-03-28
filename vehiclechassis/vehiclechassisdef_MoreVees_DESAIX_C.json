@@ -17,7 +17,7 @@
 		"Cost": 850000,
 		"Rarity": 0,
 		"Purchasable": false,
-		"Details": "Another attempt to keep tanks relevant against BattleMechs, the Desaix is a fast, well-armed and armored OmniVehicle named for a noble general of the French Revolutionary Wars on old Terra. The C variant takes advantage of the tank's speed for knife fights, with a Snub PPC, two SRM6s with Artemis ammo, and two ER Small Lasers for finishers.\n<color=#87CEEB>[More Vehicles]</color>\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>\n\n<b>Armor:</b> Heavy Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       250     35\n<b>Left</b>         195     35\n<b>Right</b>       195     35\n<b>Rear</b>        160     35\n<b>Turret</b>      240     35\n\n<b>Total</b>      1040    165\n"
+		"Details": "Another attempt to keep tanks relevant against BattleMechs, the Desaix is a fast, well-armed and armored OmniVehicle named for a noble general of the French Revolutionary Wars on old Terra. The C variant takes advantage of the tank's speed for knife fights, with a Snub PPC, two SRM6s, two ER Small Lasers for finishers, and a TAG.\n<color=#87CEEB>[More Vehicles]</color>\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>\n\n<b>Armor:</b> Heavy Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       250     35\n<b>Left</b>         195     35\n<b>Right</b>       195     35\n<b>Rear</b>        160     35\n<b>Turret</b>      240     35\n\n<b>Total</b>      1040    165\n"
 	},
 	"YangsThoughts": "It's a tank, Boss, they all look the same to me.",
 	"MovementCapDefID": "movedef_5-8cv",
@@ -80,7 +80,7 @@
 			"Location": "Front",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -117,27 +117,31 @@
 			"Location": "Turret",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Missile",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},	
 				{
-					"WeaponMount": "Missile",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},				
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},	
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},	
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 			],

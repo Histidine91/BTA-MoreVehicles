@@ -217,7 +217,7 @@
 		},
 		{
 			"MountedLocation": "Turret",
-			"ComponentDefID": "Gear_TargetingTrackingSystem_ARTEMISIV",
+			"ComponentDefID": "Gear_Attachment_ArtemisIV",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
