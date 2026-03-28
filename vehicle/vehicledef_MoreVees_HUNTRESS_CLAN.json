@@ -23,16 +23,26 @@
 			"unit_lance_support",
 			"unit_advanced",
 			"unit_bracket_med",
+			
 			"CGBThetaGalaxy",
+			"CSRDeltaGalaxy",
 			"CJFIotaGalaxy",
 			"CNCOmicronGalaxy",
 			"CWEpsilonGalaxy",
-			"clansgeneric",
+			"CGSOmegaGalaxy",
+			"ScorpionEmpire",
+			"ClanFireMandrill",
+			"KindraaSainze",
+			"KindraaFaradayTanaga",
+			"KindraaMickKreese",
 			"ClanWolf",
+			"ClanGoliathScorpion",
+			"ClanSnowRaven",
 			"ClanJadeFalcon",
 			"ClanGhostBear",
 			"ClanNovaCat",
 			"ClanDiamondShark",
+			
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
